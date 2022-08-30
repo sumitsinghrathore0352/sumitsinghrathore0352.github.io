@@ -830,6 +830,9 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+  .projects_button {
+    margin-bottom: 2vh;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
