@@ -644,6 +644,9 @@ img {
   width: 332px;
   justify-self: center;
 }
+.projects_button {
+  margin-bottom: 2vh;
+}
 
 /* <!-- ======================== CONTACT ME =========================== --> */
 .contact_container {
