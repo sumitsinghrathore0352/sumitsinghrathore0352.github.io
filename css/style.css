@@ -794,6 +794,9 @@ img {
   .project_img {
     width: 200px;
   }
+  .projects_button {
+    margin-bottom: 2vh;
+  }
 }
 /* <!-- ========================for medium device=========================== --> */
 @media screen and (min-width: 568px) {
@@ -933,6 +936,9 @@ img {
   .project_bg {
     background: none;
   }
+  .projects_button {
+    margin-bottom: 2vh;
+  }
   .project_container {
     background-color: var(--first-color-second);
     border-radius: 1rem;
@@ -988,5 +994,8 @@ img {
   }
   .contact_input {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .projects_button {
+    margin-bottom: 2vh;
   }
 }
