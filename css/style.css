@@ -650,7 +650,7 @@ img {
 }
 @media screen and (max-width: 600px) {
   .projects {
-    margin-bottom: 2vh;
+    height: 35vh;
   }
 }
 /* <!-- ======================== CONTACT ME =========================== --> */
