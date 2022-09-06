@@ -308,6 +308,7 @@ img {
   background-color: #fff;
   color: var(--first-color);
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .button--white:hover {
   background-color: #fff;
@@ -315,7 +316,6 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 1vh;
 }
 .button--small {
   padding: 0.75rem 1rem;
@@ -645,14 +645,7 @@ img {
   width: 332px;
   justify-self: center;
 }
-.projects_button {
-  margin-bottom: 2vh;
-}
-@media screen and (max-width: 600px) {
-  .projects {
-    height: 35vh;
-  }
-}
+
 /* <!-- ======================== CONTACT ME =========================== --> */
 .contact_container {
   row-gap: 3rem;
@@ -677,7 +670,7 @@ img {
 .contact_content {
   background-color: var(--input-color);
   border-radius: 0.5rem;
-  padding: 0.75rem 1rem 0.25rem;
+  padding: 0.75rem 1rem 1.25rem;
 }
 .contact_lable {
   font-size: var(--small-font-size);
@@ -731,6 +724,7 @@ img {
   text-align: center;
   color: var(--text-color-light);
   margin-top: var(--mb-3);
+  padding-bottom: 3rem;
 }
 .footer_title,
 .footer_subtitle,
@@ -791,16 +785,13 @@ img {
     justify-content: center;
   }
   .services_content {
-    padding-right: 3.5rem;
+    padding-right: 11.5rem;
   }
   .services_modal {
     padding: 0.5rem;
   }
   .project_img {
     width: 200px;
-  }
-  .projects_button {
-    margin-bottom: 2vh;
   }
 }
 /* <!-- ========================for medium device=========================== --> */
@@ -834,9 +825,6 @@ img {
   .skills_content {
     margin-left: auto;
     margin-right: auto;
-  }
-  .projects_button {
-    margin-bottom: 2vh;
   }
 }
 @media screen and (min-width: 768px) {
@@ -944,9 +932,6 @@ img {
   .project_bg {
     background: none;
   }
-  .projects_button {
-    margin-bottom: 2vh;
-  }
   .project_container {
     background-color: var(--first-color-second);
     border-radius: 1rem;
@@ -1002,8 +987,5 @@ img {
   }
   .contact_input {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .projects_button {
-    margin-bottom: 2vh;
   }
 }
