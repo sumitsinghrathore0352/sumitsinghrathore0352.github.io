@@ -151,6 +151,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1.5rem;
 }
 .nav_logo,
 .nav_toggle {
@@ -785,7 +786,7 @@ img {
     justify-content: center;
   }
   .services_content {
-    padding-right: 11.5rem;
+    padding-right: 5.5rem;
   }
   .services_modal {
     padding: 0.5rem;
