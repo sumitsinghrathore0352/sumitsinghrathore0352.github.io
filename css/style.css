@@ -19,7 +19,7 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 80%);
   /* FONTS SIZE */
   --body-font: "Poppins", sans-serif;
-  --big-font-size: 2rem;
+  --big-font-size: 3rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -758,7 +758,7 @@ img {
 }
 /* <!-- ========================RESPONSIVE=========================== --> */
 /* <!-- ========================for small device=========================== --> */
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 250px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
