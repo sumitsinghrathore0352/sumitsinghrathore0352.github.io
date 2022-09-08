@@ -758,7 +758,7 @@ img {
 }
 /* <!-- ========================RESPONSIVE=========================== --> */
 /* <!-- ========================for small device=========================== --> */
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 350px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -989,5 +989,8 @@ img {
   }
   .contact_input {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .services_content {
+    padding-right: 5.5rem;
   }
 }
