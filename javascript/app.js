@@ -1,3 +1,15 @@
+// greet
+alert("Please enter your name in prompt box first");
+var name = prompt("Enter your name");
+function greet() {
+  document.getElementById("greet").innerHTML =
+    "<h1> Hello! </h1>" +
+    "<h1>" +
+    name +
+    "</h1>" +
+    "<h1> Welcome To My  Portfolio </h1>";
+}
+window.onload = greet();
 // <!-- ========================  TOGGLE MENU BAR  =========================== -->
 const navMenu = document.getElementById("nav_menu"),
   navToggle = document.getElementById("nav_toggle"),

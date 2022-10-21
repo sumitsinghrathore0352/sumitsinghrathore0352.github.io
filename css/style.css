@@ -5,8 +5,8 @@
 
 :root {
   --header-height: 3rem;
-  --hue-color: 250;
-  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --hue-color: 221;
+  --first-color: hsl(var(--hue-color), 100%, 53%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -223,7 +223,20 @@ img {
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
+/* greet */
+#greet h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
 /* <!-- ========================  HOME  =========================== --> */
+/* just testing icons style */
+.home_social a {
+  width: 2rem;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
 .home_contaier {
   gap: 1rem;
 }
@@ -703,6 +716,12 @@ img {
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
+.contact_input input {
+  padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+}
+.contact_input textarea {
+  padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+}
 /* <!-- ======================== FOOTER =========================== --> */
 .footer {
   padding-top: 2rem;
@@ -737,10 +756,11 @@ img {
 .footer_social:hover {
   color: var(--first-color-lighter);
 }
+
 .footer_copy {
   font-size: var(--small-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: var(--input-color);
   margin-top: var(--mb-3);
   padding-bottom: 3rem;
 }
